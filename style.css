@@ -466,3 +466,28 @@ max-width:100%;
 }
 
 }
+.hidden{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:all .9s ease;
+
+}
+
+.visible{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+.photo-principale{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
