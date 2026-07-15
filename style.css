@@ -491,3 +491,43 @@ opacity:0;
 transform:translateY(30px);
 
 }
+/* =======================
+COMPTE À REBOURS
+======================= */
+
+.countdown{
+
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:60px;
+flex-wrap:wrap;
+
+}
+
+.time-box{
+
+background:white;
+padding:20px;
+border-radius:20px;
+width:120px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.time-box span{
+
+display:block;
+font-size:42px;
+font-weight:bold;
+color:#6F8F72;
+
+}
+
+.time-box small{
+
+text-transform:uppercase;
+letter-spacing:2px;
+
+}
