@@ -715,3 +715,82 @@ width:100%;
 border:none;
 border-radius:20px;
 }
+/* =========================
+PROGRAMME
+========================= */
+
+.programme{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:50px;
+
+}
+
+.evenement{
+
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+
+}
+
+.evenement:hover{
+
+transform:translateY(-8px);
+
+}
+
+.evenement h3{
+
+color:#6F8F72;
+margin-bottom:20px;
+text-align:center;
+font-family:'Playfair Display',serif;
+
+}
+
+.evenement p{
+
+text-align:center;
+line-height:1.8;
+
+}
+/* =========================
+LIEUX
+========================= */
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:35px;
+margin-top:50px;
+
+}
+
+.card{
+
+background:white;
+padding:35px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card h3{
+
+color:#6F8F72;
+margin-bottom:20px;
+
+}
+
+.card .btn{
+
+margin-top:25px;
+
+}
