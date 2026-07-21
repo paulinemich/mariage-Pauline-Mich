@@ -879,3 +879,56 @@ padding:40px 15px;
 }
 
 }
+
+/* ==========================
+TOUCHES DE TOURNESOLS
+========================== */
+
+.section{
+
+position:relative;
+overflow:hidden;
+
+}
+
+.section:nth-child(even)::before{
+
+content:"🌻";
+
+position:absolute;
+
+top:25px;
+
+right:30px;
+
+font-size:32px;
+
+opacity:.10;
+
+transform:rotate(18deg);
+
+}
+
+.section:nth-child(odd)::after{
+
+content:"🌻";
+
+position:absolute;
+
+bottom:25px;
+
+left:30px;
+
+font-size:28px;
+
+opacity:.08;
+
+transform:rotate(-12deg);
+
+}
+
+.hero h1::after{
+
+content:" 🌻";
+
+}
